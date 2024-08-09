@@ -17,4 +17,5 @@ app.get("/", (req, res) => {
 app.use('/api', expenseRoutes);
 app.listen(port, () => {
     console.log(`Listening on port ${port}`)
+    
 })
